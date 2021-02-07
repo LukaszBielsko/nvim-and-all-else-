@@ -22,5 +22,8 @@ rg --type html -A 20 header
 nnoremap <leader>psf :CocSearch <C-R>=expand("<cword>")<CR> --type 
   
 nnoremap \<c-g>\<c-g> :Rg<CR>
+  
+  execute 'inoremap <buffer> <silent> <BS> <C-R>=AutoPairsDelete()<CR>'
+
 
 

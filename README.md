@@ -12,7 +12,7 @@ rg --type html header
 
 rg --type html -A 20 header
 
-nnoremap /<leader>cp :let @*=expand("%")/<CR>
+
 
 
 
